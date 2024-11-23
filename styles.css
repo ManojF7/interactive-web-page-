@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+/* style for h1 tag*/
+h1 
+{
+ color: white;
+}
+/* navigation bar code now */
+.navbar {
+  position: relative;
+color:white;
+  top: 0px;
+  width: 100%;
+  background-color:red;
+  padding: 10px 0;
+  transition: background-color 3s ease;
+}
+.navbar.fixed{
+position:fixed;
+top:0;
+z-index;1000;
+box-shadow: 02px 5px rgba(0,0,0,0.2);
+}
+/*menu top code*/
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+/* items in menu top */
+.menu-item {
+  text-decoration: none;
+  color: white;
+  margin:  15px;
+  padding: 10px 15px;
+  }
+/* when mouse hovers from items in menu */
+.menu-item:hover {
+  color: white;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+/* Sections for demo purposes */
+.content-section {
+  height: 40vh; /* vh means viewport height 1vh means 1%of the full screen window of the partition of the window  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: black;/* font colour*/
+}
+
+#home { background-color:#ffffff ; }
+#about { background-color: #d8e4ea ; }
+#services { background-color: #bcc8cd; }
+#contact { background-color: #a1adb2; }
+
+/* Navbar styles on scroll */
+.navbar.scrolled {
+background-color:#20a37e;
+}
